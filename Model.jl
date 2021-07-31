@@ -21,11 +21,11 @@ INPUTDIR =  DIR*"\\inputs\\";
 OUTPUTDIR = DIR*"\\outputs\\";
 ######################################################################################
 
-dsolar  = CSV.read(INPUTDIR*"solarrev3.csv",  DataFrame);
-dwind   = CSV.read(INPUTDIR*"windrev3.csv",   DataFrame);
-dhydro  = CSV.read(INPUTDIR*"hydrorev3.csv",  DataFrame);
-ddemand = CSV.read(INPUTDIR*"demandrev3.csv", DataFrame);
-dgen    = CSV.read(INPUTDIR*"genrev4.csv",    DataFrame);
+dsolar  = CSV.read(INPUTDIR*"solarrev.csv",  DataFrame);
+dwind   = CSV.read(INPUTDIR*"windrev.csv",   DataFrame);
+dhydro  = CSV.read(INPUTDIR*"hydrorev.csv",  DataFrame);
+ddemand = CSV.read(INPUTDIR*"demandrev.csv", DataFrame);
+dgen    = CSV.read(INPUTDIR*"genrev.csv",    DataFrame);
 dpriemi = CSV.read(INPUTDIR*"PriEmi.csv",     DataFrame);
 ddist   = CSV.read(INPUTDIR*"distances.csv",  DataFrame);
 dtrans  = CSV.read(INPUTDIR*"transmissionlines.csv",  DataFrame);
