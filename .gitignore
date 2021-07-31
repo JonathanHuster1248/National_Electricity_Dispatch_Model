@@ -1,0 +1,2 @@
+# We don't want to add the raw data, as it is readily available and too large to reasonably store here. 
+/data/raw/*
